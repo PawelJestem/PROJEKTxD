@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #55D589;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ZaopatrzeniowiecController">
+   <children>
+      <Pane layoutY="-4.0" prefHeight="608.0" prefWidth="223.0" style="-fx-background-color: #EFEFEF;">
+         <children>
+            <Text fill="#55d589" layoutX="22.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zaopatrzeniowiec" wrappingWidth="187.0">
+               <font>
+                  <Font name="Microsoft Yi Baiti" size="29.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="69.0" mnemonicParsing="false" onAction="#openListaZamowien" prefHeight="45.0" prefWidth="187.0" style="-fx-background-color: #929895; -fx-background-radius: 0;" text="Lista zamówień" textFill="WHITE">
+               <font>
+                  <Font name="Neue Haas Grotesk Text Pro Medium" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button layoutX="14.0" layoutY="124.0" mnemonicParsing="false" onAction="#openStanMagazynowy" prefHeight="45.0" prefWidth="187.0" style="-fx-background-color: #929895; -fx-background-radius: 0;" text="Stan magazynowy" textFill="WHITE">
+               <font>
+                  <Font name="Neue Haas Grotesk Text Pro Medium" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button layoutX="14.0" layoutY="178.0" mnemonicParsing="false" onAction="#openStatystyki" prefHeight="45.0" prefWidth="187.0" style="-fx-background-color: #929895; -fx-background-radius: 0;" text="Statystyki" textFill="WHITE">
+               <font>
+                  <Font name="Neue Haas Grotesk Text Pro Medium" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button layoutX="14.0" layoutY="523.0" mnemonicParsing="false" onAction="#backMenu" prefHeight="45.0" prefWidth="187.0" style="-fx-background-color: #929895; -fx-background-radius: 0;" text="Wyloguj się" textFill="WHITE">
+               <font>
+                  <Font name="Neue Haas Grotesk Text Pro Medium" size="20.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="38.0" layoutX="166.0" layoutY="536.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/administratorScreen/Icon%20open-account-login.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="14.0" layoutY="233.0" mnemonicParsing="false" onAction="#openZamowieniaWew" prefHeight="45.0" prefWidth="187.0" style="-fx-background-color: #929895; -fx-background-radius: 0;" text="Zamówienia wew." textFill="WHITE">
+               <font>
+                  <Font name="Neue Haas Grotesk Text Pro Medium" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button layoutX="14.0" layoutY="289.0" mnemonicParsing="false" onAction="#openDodajZamowienie" prefHeight="45.0" prefWidth="187.0" style="-fx-background-color: #929895; -fx-background-radius: 0;" text="Dodaj zamówienie" textFill="WHITE">
+               <font>
+                  <Font name="Neue Haas Grotesk Text Pro Medium" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="290.0" fitWidth="357.0" layoutX="510.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/humaaans-standing-11.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="929.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="966.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="893.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

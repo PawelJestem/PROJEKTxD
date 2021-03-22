@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #55D589;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ListaZamowienScreenController">
+   <children>
+      <TableView layoutX="185.0" layoutY="170.0" prefHeight="355.0" prefWidth="618.0">
+        <columns>
+          <TableColumn prefWidth="137.0" text="Numer zamówienia" />
+          <TableColumn prefWidth="136.0" text="Status" />
+            <TableColumn prefWidth="75.0" text="Zaliczka" />
+        </columns>
+      </TableView>
+      <Label layoutX="317.0" layoutY="14.0" prefHeight="69.0" prefWidth="524.0" style="-fx-background-color: #55D589;" text="Lista zamówień" textFill="WHITE">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="57.0" layoutX="34.0" layoutY="34.0" onKeyPressed="#backMenu" onMouseClicked="#backMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/dodajZamowienie/Icon%20material-arrow_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="929.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="966.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="893.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

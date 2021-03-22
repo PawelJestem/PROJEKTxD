@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #55D589;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MagazynierScreenController">
+   <children>
+      <Text fill="WHITE" layoutX="298.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Przyjmowanie towaru" textAlignment="CENTER" wrappingWidth="397.13671875">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="39.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="903.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="963.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="932.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="107.0" layoutY="117.0" prefHeight="455.0" prefWidth="764.0" style="-fx-background-color: #EFEFEF;">
+         <children>
+            <TextField layoutX="12.0" layoutY="75.0" prefHeight="47.0" prefWidth="294.0" promptText="Nazwa towaru">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Text layoutX="14.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Czy towar kompletny?" textAlignment="CENTER" wrappingWidth="318.13671875">
+               <font>
+                  <Font name="Microsoft Yi Baiti" size="39.0" />
+               </font>
+            </Text>
+            <RadioButton layoutX="354.0" layoutY="154.0" mnemonicParsing="false" text="Tak">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="467.0" layoutY="154.0" mnemonicParsing="false" text="Nie">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <Button layoutX="537.0" layoutY="387.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: #929895; -fx-background-radius: 0;" text="Dodaj" textFill="WHITE">
+               <font>
+                  <Font name="Neue Haas Grotesk Text Pro Medium" size="17.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

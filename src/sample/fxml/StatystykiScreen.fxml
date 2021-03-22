@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #55D589;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StatystykiScreenController">
+   <children>
+      <Label layoutX="373.0" layoutY="4.0" prefHeight="69.0" prefWidth="524.0" style="-fx-background-color: #55D589;" text="Statystyki" textFill="WHITE">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <AreaChart layoutX="112.0" layoutY="153.0" prefHeight="421.0" prefWidth="751.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </AreaChart>
+      <ImageView fitHeight="29.0" fitWidth="57.0" layoutX="24.0" layoutY="24.0" onMouseClicked="#backMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/dodajZamowienie/Icon%20material-arrow_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="929.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="966.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="893.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/administratorScreen/Ellipse%2022.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
